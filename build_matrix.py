@@ -1,7 +1,7 @@
 """DE1-DE5: rebuild the customer x product matrix from the raw Excel file.
 Usage: python build_matrix.py
 """
-import json
+import json, os
 import numpy as np, pandas as pd, scipy.sparse as sp
 
 RAW = "data/raw/online_retail_II.xlsx"
@@ -105,6 +105,7 @@ def build(train, train_agg, cutoff):
 
 
 if __name__ == "__main__":
+    os.makedirs(OUT, exist_ok=True)
     df = load()
     profile(df)
     df = clean(df)
