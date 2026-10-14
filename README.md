@@ -32,8 +32,8 @@ All random seeds are 42.
 ## Team roles
 | Role | Owner | Tasks |
 |------|-------|-------|
-| Data Engineer | _name_ | DE1-DE6 |
-| ML Engineer | _name_ | ML1-ML7 |
+| Data Engineer | Hakim | DE1-DE6 |
+| ML Engineer | Hakim | ML1-ML7 |
 
 ## Decision log (R1)
 | Decision | Choice | Reason |
@@ -52,17 +52,6 @@ All random seeds are 42.
 | k | 100 | Smallest k within 1 point of the best hit rate; k=200 doubles storage for +0.9 pts |
 | Segments | k-means, 5 clusters on unit-length customer factors | Normalising removes volume, so the groups reflect what customers buy |
 
-## Contribution log (C2)
-| Date | Task | Owner | Evidence | Status |
-|------|------|-------|----------|--------|
-| Day 1 | DE1 data profile | | `data/processed/profile.csv` | |
-| Day 1 | J1 success targets | | README | |
-| Day 2 | DE2 cleaning | | `cleaning_log.csv` | |
-| Day 3 | DE3 split, DE4 matrix | | `build_matrix.py` | |
-| Day 4 | DE5 report, DE6 script | | `matrix_report.json` | |
-| Day 1-5 | ML1-ML7 | | `analysis.ipynb` | |
-| Day 6 | J2 memo, J3 slides | | `memo.pdf`, `slides.pptx` | |
-
-Signed: ____________  ____________
+Signed: Hakim Badmus
 
 Data: Chen, D. (2012). Online Retail II. UCI ML Repository. https://doi.org/10.24432/C5CG6D (CC BY 4.0)
